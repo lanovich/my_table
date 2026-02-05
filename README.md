@@ -87,7 +87,7 @@ npm run preview  # Предпросмотр production сборки
 
 ### Видео демонстрация
 
-[![Demo GIF](https://media.giphy.com/media/v1.YQlR2tdT6sF2gK3p/giphy.gif)
+[![Demo GIF](/assets/demo.gif)
 
 *Основные сценарии демонстрации:*
 
