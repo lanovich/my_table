@@ -1,0 +1,17 @@
+th.sortable {
+  cursor: pointer;
+}
+
+th.sortable:hover {
+  background: #1f7acc;
+}
+
+.labelContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+th.sortable.activeAction {
+  background-color: var(--blue-secondary);
+}

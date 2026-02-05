@@ -1,0 +1,18 @@
+.row {
+  background-color: var(--bg-main);
+}
+
+.firstCell {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 6px;
+  padding: 12px 16px;
+  vertical-align: middle;
+  color: var(--text-primary);
+}
+
+.leafSpacer {
+  width: 28px;
+  flex-shrink: 0;
+}

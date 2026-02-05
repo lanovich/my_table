@@ -1,0 +1,9 @@
+.cell {
+  padding: 12px 16px;
+  vertical-align: middle;
+  color: var(--text-primary);
+}
+
+.content {
+  flex: 1;
+}

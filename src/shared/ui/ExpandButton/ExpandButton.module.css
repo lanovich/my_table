@@ -1,0 +1,32 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border-radius: 30%;
+  border: 1.5px solid var(--blue-secondary);
+  background-color: var(--bg-main);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0;
+}
+
+.button svg {
+  pointer-events: none;
+  color: var(--blue-secondary);
+}
+
+.button.open {
+  background-color: var(--blue-secondary);
+}
+
+.button.open svg {
+  color: var(--bg-main);
+}
+
+.button.closed {
+  background-color: var(--bg-main);
+}

@@ -1,0 +1,44 @@
+.select {
+  width: 100%;
+  padding: 8px 36px 8px 12px;
+
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+
+  cursor: pointer;
+  appearance: none;
+
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease,
+    color 0.15s ease;
+
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%236b7280' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+
+.select:hover {
+  border-color: var(--blue-secondary);
+  background-color: var(--bg-row-alt);
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--blue-primary);
+  box-shadow: 0 0 0 3px rgba(0, 94, 184, 0.15);
+}
+
+.select:disabled {
+  background-color: var(--bg-row-alt);
+  color: var(--text-muted);
+  cursor: not-allowed;
+  opacity: 0.8;
+}

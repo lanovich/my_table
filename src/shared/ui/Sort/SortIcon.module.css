@@ -1,0 +1,7 @@
+.inactiveSort {
+  opacity: 0.6;
+}
+
+.activeSort {
+  opacity: 1;
+}

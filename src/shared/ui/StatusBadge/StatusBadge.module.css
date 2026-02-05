@@ -1,0 +1,17 @@
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: white;
+  min-width: 50px;
+}
+
+.active {
+  background-color: var(--status-active);
+}
+
+.inactive {
+  background-color: var(--status-inactive);
+}

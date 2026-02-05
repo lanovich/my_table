@@ -1,0 +1,9 @@
+.header th {
+  background: var(--blue-primary);
+  color: white;
+  font-weight: 600;
+  padding: 14px 16px;
+  text-align: left;
+  user-select: none;
+  position: relative;
+}
